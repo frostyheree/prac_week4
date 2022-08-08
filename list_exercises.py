@@ -1,5 +1,12 @@
 numbers = []
+usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface', 'BaseStdIn',
+             'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
 
+user_username = input("Username: ")
+if user_username in usernames :
+    print("Access granted")
+else :
+    print("Access denied")
 for i in range(5):
     number = int(input("Number: "))
     numbers.append(number)
